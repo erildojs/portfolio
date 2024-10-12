@@ -5,6 +5,9 @@
 }
 
 #root {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
 }
 
 body {

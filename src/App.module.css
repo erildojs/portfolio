@@ -1,5 +1,53 @@
 .header {
-  max-width: 90rem;
-  margin: 0 auto;
-  padding-top: 32px;
+  height: 6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  padding-top: 94px;
+}
+
+.infoTitle {
+  font-weight: 800;
+  color: #272221;
+  font-size: 48px;
+}
+
+.infoSubTitle {
+  font-weight: 400;
+  color: #403937;
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 33px;
+}
+
+.social {
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 4px;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.socialIcon {
+  margin-right: 4px;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.meFace {
+  border-radius: 500px;
+  
 }
