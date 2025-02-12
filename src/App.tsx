@@ -17,15 +17,15 @@ export function App() {
         <div className={styles.info}>
           <h1 className={styles.infoTitle}>Meu nome é Erildo Francisco</h1>
           <p className={styles.infoSubTitle}>Desenvolvedor web com foco principalmente em reactjs e nodejs</p>
-          <a href='https://github.com/erildojs' target='blank' className={styles.social}>
+          <a href='https://github.com/erildojs' target='_blank' className={styles.social}>
             <BsGithub size={18} className={styles.socialIcon} />
             Github
           </a>
-          <a href='https://www.linkedin.com/in/erildojs/' target='blank' className={styles.social}>
+          <a href='https://www.linkedin.com/in/erildojs/' target='_blank' className={styles.social}>
             <BsLinkedin size={18} className={styles.socialIcon} />
             Linkedin
           </a>
-          <a href='https://www.instagram.com/erildo_francisco/' target='blank' className={styles.social}>
+          <a href='https://www.instagram.com/erildo_francisco/' target='_blank' className={styles.social}>
             <BsInstagram size={18} className={styles.socialIcon} />
             Instagram
           </a>
@@ -44,7 +44,7 @@ export function App() {
           </article>
           <article className={styles.project}>
             <img src={dashgoImg} className={styles.projectImg} alt="dashgo" />
-            <a href='https://github.com/erildojs/dashgo' target='blank' className={styles.projectLink}>Acessar</a>
+            <a href='https://dashgo-mu-three.vercel.app/' target='blank' className={styles.projectLink}>Acessar</a>
           </article>
           {/* <article className={styles.project}>
             <img src={barberImg} className={styles.projectImg} alt="barbearia" />
