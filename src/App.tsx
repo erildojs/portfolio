@@ -40,11 +40,11 @@ export function App() {
         <section className={styles.projects}>
           <article className={styles.project}>
             <img src={barberImg} className={styles.projectImg} alt="barbearia" />
-            <a href='https://barber-kappa-one.vercel.app/' target='blank' className={styles.projectLink}>Acessar</a>
+            <a href='https://barber-kappa-one.vercel.app/' target='_blank' className={styles.projectLink}>Acessar</a>
           </article>
           <article className={styles.project}>
             <img src={dashgoImg} className={styles.projectImg} alt="dashgo" />
-            <a href='https://dashgo-mu-three.vercel.app/' target='blank' className={styles.projectLink}>Acessar</a>
+            <a href='https://dashgo-mu-three.vercel.app/' target='_blank' className={styles.projectLink}>Acessar</a>
           </article>
           {/* <article className={styles.project}>
             <img src={barberImg} className={styles.projectImg} alt="barbearia" />
