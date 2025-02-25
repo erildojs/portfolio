@@ -15,8 +15,8 @@ export function App() {
       </header>
       <section className={styles.main}>
         <div className={styles.info}>
-          <h1 className={styles.infoTitle}>Meu nome é Erildo Francisco</h1>
-          <p className={styles.infoSubTitle}>Desenvolvedor web com foco principalmente em reactjs e nodejs</p>
+          <h1 className={styles.infoTitle}>Erildo Francisco</h1>
+          <p className={styles.infoSubTitle}>Desenvolvedor web com foco principalmente em Reactjs e Nodejs</p>
           <a href='https://github.com/erildojs' target='_blank' className={styles.social}>
             <BsGithub size={18} className={styles.socialIcon} />
             Github
@@ -30,7 +30,6 @@ export function App() {
             Instagram
           </a>
         </div>
-
         <div className={styles.me}>
           <img src={Me} alt="minha cara" className={styles.meFace} />
         </div>
@@ -46,14 +45,6 @@ export function App() {
             <img src={dashgoImg} className={styles.projectImg} alt="dashgo" />
             <a href='https://dashgo-mu-three.vercel.app/' target='_blank' className={styles.projectLink}>Acessar</a>
           </article>
-          {/* <article className={styles.project}>
-            <img src={barberImg} className={styles.projectImg} alt="barbearia" />
-            <a href='https://barber-kappa-one.vercel.app/' target='blank' className={styles.projectLink}>Acessar</a>
-          </article>
-          <article className={styles.project}>
-            <img src={barberImg} className={styles.projectImg} alt="barbearia" />
-            <a href='https://barber-kappa-one.vercel.app/' target='blank' className={styles.projectLink}>Acessar</a>
-          </article> */}
         </section>
       </main>
     </>
