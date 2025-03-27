@@ -5,6 +5,7 @@ import barberImg from './assets/barber.png'
 import dashgoImg from './assets/dashgo.png'
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 
+
 export function App() {
   return (
     <>
